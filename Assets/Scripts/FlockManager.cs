@@ -21,7 +21,7 @@ public class FlockManager : MonoBehaviour
         }
 
         foreach(GameObject sheep in this.flock) {
-            sheep.SendMessage("setFlock", this.flock);
+            sheep.SendMessage("setFlockList", this.flock);
         }
     }
 
